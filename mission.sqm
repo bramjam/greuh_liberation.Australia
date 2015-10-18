@@ -33,7 +33,7 @@ class Mission
 		"a3_modules_f_curator_curator",
 		"A3_Air_F_Heli_Light_01",
 		"A3_Structures_F_Civ_InfoBoards",
-		"A3_Structures_F_EPA_Mil_ScrapyarTd",
+		"A3_Structures_F_EPA_Mil_Scrapyard",
 		"A3_Structures_F_EPC_Civ_InfoBoards",
 		"A3_Structures_F_Civ_Camping",
 		"A3_Structures_F_System",
@@ -2556,7 +2556,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=71;
+		items=86;
 		class Item0
 		{
 			position[]={35389.184,7.2406273,8491.3828};
@@ -3087,6 +3087,126 @@ class Mission
 			position[]={1840.084,0.10464711,16820.494};
 			name="opfor_airspawn_5";
 			type="Empty";
+		};
+		class Item71
+		{
+			position[]={30056.592,27.331385,17437.563};
+			name="military_1_1_4";
+			text="Base";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item72
+		{
+			position[]={35279.141,292.10156,10480.965};
+			name="tower_1";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item73
+		{
+			position[]={35181.734,19.314791,9020.0322};
+			name="tower_2";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item74
+		{
+			position[]={32496.418,31.770084,10686.434};
+			name="tower_3";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item75
+		{
+			position[]={25832.996,92.224976,13490.372};
+			name="tower_4";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item76
+		{
+			position[]={26409.08,130.90125,19089.223};
+			name="tower_5";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item77
+		{
+			position[]={33002.168,61.928555,20626.303};
+			name="military_1_1_5";
+			text="Base";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item78
+		{
+			position[]={36693.527,80.60537,15963.932};
+			name="factory_7";
+			text="Factory";
+			type="loc_Fuelstation";
+			colorName="ColorEAST";
+		};
+		class Item79
+		{
+			position[]={33792.281,56.7943,15664.973};
+			name="military_1_1_4_1";
+			text="Base";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item80
+		{
+			position[]={33423.453,70.653801,17716.514};
+			name="capture_6_3";
+			text="POI";
+			type="n_art";
+			colorName="ColorEAST";
+		};
+		class Item81
+		{
+			position[]={28897.893,37.473083,29832.492};
+			name="military_1_1_6";
+			text="Base";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item82
+		{
+			position[]={5092.292,147.85985,15978.836};
+			name="tower_4_1";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item83
+		{
+			position[]={5117.7676,65.975204,20801.328};
+			name="tower_4_2";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item84
+		{
+			position[]={21248.305,20.431194,28650.666};
+			name="tower_4_3";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item85
+		{
+			position[]={21305.994,62.059311,23084.494};
+			name="tower_4_4";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
 		};
 	};
 	class Sensors
